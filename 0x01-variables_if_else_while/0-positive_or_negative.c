@@ -4,7 +4,7 @@
 
 /* betty style doc for function main goes there */
 /**
- * main - The program determines whether a random number is either positive or negative
+ * main - determines whether a random number is either positive or negative
  *
  * Description: if the number is greater than 0: is positive
  * if the number is 0: is zero
@@ -24,13 +24,12 @@ int main(void)
 	printf("%d is positive\n", n);
 	}
 	else if (n < 0)
-        {
-        printf("%d is negative\n", n);
-        }
-	else 
-        {
-        printf("%d is zero\n", n);
-        }
-
+	{
+	printf("%d is negative\n", n);
+	}
+	else
+	{
+	printf("%d is zero\n", n);
+	}
 	return (0);
 }
