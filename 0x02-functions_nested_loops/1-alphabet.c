@@ -9,9 +9,12 @@
 void print_alphabet(void)
 
 {
-	
+
 	char c;
 
+	/**
+	 * print_alphabet - Print alphabets
+	 */
 	for (c = 'a'; c <= 'z'; c++)
 	{
 	_putchar(c);
