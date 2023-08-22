@@ -7,21 +7,21 @@
 
 void print_rev(char *s)
 {
-	int count; /* finding the length of the char */
-	int reduce;
+	int count = 0;
+	int a;
 
 	while (*s != '\0')
 	{
 		count++;
-		s++;
+		a++;
 	}
 	s--;
-	for (reduce = count; reduce > 0; reduce--)
+	for (a = count; a > 0; a--)
 	{
 		_putchar(*s);
 		s--;
-
 	}
 
 	_putchar('\n');
+
 }
