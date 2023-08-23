@@ -5,6 +5,8 @@
  *
  * @dest: pointer to copy to
  * @src: pointer to copy from
+ *
+ * Return: char
  */
 char *_strcpy(char *dest, char *src)
 {
