@@ -5,7 +5,7 @@
  *
  * @n: number
  *
- * Return: If n is lower than 0, the function 
+ * Return: If n is lower than 0, the function
  * should return -1 to indicate an error
  */
 
